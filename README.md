@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/angelikavalerio/ip-address-tracker-react)
+- Live Site URL: [Vercel](https://vercel.com/angelikavalerio/ip-address-tracker-react)
 ### Built with
 
 - CSS media queries
