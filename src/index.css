@@ -120,6 +120,10 @@ code {
     display: none;
   }
 
+  .top-layout {
+    background-image: url('./images/pattern-bg-mobile.png');
+  }
+
   .leaflet-control-zoom {
     display: none;
   }
