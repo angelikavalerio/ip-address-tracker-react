@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/angelikavalerio/ip-address-tracker-react)
-- Live Site URL: [Vercel](https://vercel.com/angelikavalerio/ip-address-tracker-react)
+- Live Site URL: [Vercel](https://ip-address-tracker-react-gilt.vercel.app)
 ### Built with
 
 - CSS media queries
