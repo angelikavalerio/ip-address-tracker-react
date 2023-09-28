@@ -11,7 +11,7 @@ const customIcon = new divIcon({
 export default function Map({ coordinates }) {
 
   return (
-    <MapContainer center={[34.04915, -118.09462]} zoom={20}>
+    <MapContainer center={[35.04915, -118.09462]} zoom={13}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
