@@ -10,16 +10,16 @@ import { useState, useEffect } from 'react';
 function App() {
   const [ipAddress, setIpAddress] = useState('')
   const [ipDetails, setIpDetails] = useState({
-    ip: '192.212.174.101',
-    isp: 'Souther California Edison',
+    ip: '',
+    isp: '',
     location: {
-      city: 'South San Garbriel',
-      region: 'California',
-      timezone: "-07:00",
+      city: '',
+      region: '',
+      timezone: "",
     }
   })
 
-  const [coordinates, setCoordinates] = useState([34.04915, -118.09462])
+  const [coordinates, setCoordinates] = useState([70.04915, -418.09462])
 
   function handleSearch() {
     axios({
