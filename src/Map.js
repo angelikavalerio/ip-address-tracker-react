@@ -5,7 +5,7 @@ import { useMap } from 'react-leaflet';
 import { useEffect } from 'react';
 
 const customIcon = new Icon({
-  iconUrl: require('./images/location.png'),
+  iconUrl: require('./images/icon-location.svg'),
   iconSize: [22, 30]
 })
 
