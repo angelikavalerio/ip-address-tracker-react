@@ -22,6 +22,11 @@ code {
   border: none !important;
 }
 
+.leaflet-marker-icon {
+  margin-left: -46px !important;
+  margin-top: -56px !important;
+}
+
 .App {
   text-align: center;
 }
