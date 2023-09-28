@@ -5,10 +5,10 @@ import DetailsCard from "./DetailsCard"
 import axios from 'axios';
 import Map from './Map';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
-  const [ipAddress, setIpAddress] = useState('192.212.174.101')
+  const [ipAddress, setIpAddress] = useState('')
   const [ipDetails, setIpDetails] = useState({
     ip: '192.212.174.101',
     isp: 'Souther California Edison',
@@ -18,6 +18,7 @@ function App() {
       timezone: "-07:00",
     }
   })
+
   const [coordinates, setCoordinates] = useState([34.04915, -118.09462])
 
   function handleSearch() {
@@ -31,6 +32,10 @@ function App() {
       })
       .catch((e) => alert('Invalid IP!!!'))
   }
+
+  useEffect(() => {
+    handleSearch();
+  }, []);
 
   return (
     <div className="App">
