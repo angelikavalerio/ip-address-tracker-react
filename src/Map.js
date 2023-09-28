@@ -28,7 +28,7 @@ export default function Map({ coordinates }) {
 const RecenterAutomatically = ({ coordinates }) => {
   const map = useMap();
   useEffect(() => {
-    map.setView(coordinates);
+    map.flyTo(coordinates);
   }, [coordinates, map]);
   return null;
 }
