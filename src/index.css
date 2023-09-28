@@ -17,6 +17,11 @@ code {
   height: calc(100vh - 200px);
 }
 
+.leaflet-div-icon {
+  background: none;
+  border: none;
+}
+
 .App {
   text-align: center;
 }
